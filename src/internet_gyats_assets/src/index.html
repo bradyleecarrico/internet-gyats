@@ -5,18 +5,46 @@
     <meta name="viewport" content="width=device-width" />
     <title>internet_gyats</title>
     <base href="/" />
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="gyat.ico" />
     <link type="text/css" rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <button id="logs" type="submit">--All NFTs--</button>
+    <div id="coverLogs">
+      <button id="logsX">X</button>
+    </div>
+    <div id="coverMy">
+      <button id="myX">X</button>
+    </div>
+    <div id="coverRare">
+      <button id="rareX">X</button>
+      <div class="item">
+        <img class="rareImages" src="1.png"/>
+        <span class="caption">Basically Extinct</span>
+      </div>
+      <div class="item">
+        <img class="rareImages" src="2.png"/>
+        <span class="caption">Extremely Rare</span>
+      </div>
+      <div class="item">
+        <img class="rareImages" src="3.png"/>
+        <span class="caption">Rare</span>
+      </div>
+    </div>
     <main>
-      <img src="logo.png" alt="DFINITY logo" />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting"></section>
+      <div id="top">
+        <p>INTERNET GYATS</p><p id="small">beta</p>
+      </div>
+      <article class="wrapper">   
+        <div id="box">
+          <button id="plug" type="submit">Plug Wallet</button>
+          <img id="image" src="4.png"/>      
+          <button id="rare" type="submit">Rare Gyats</button>
+          <button id="my" type="submit">My NFTs</button>
+          <button id="mint" type="submit">Start Mint</button>   
+        </div>
+      </article>
+      <div id="bottom">©Brady Carrico 2022</div> 
     </main>
   </body>
 </html>
